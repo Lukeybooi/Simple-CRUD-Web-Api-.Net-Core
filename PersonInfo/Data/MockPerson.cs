@@ -47,7 +47,7 @@ namespace PersonInfo.Data
 
             allowSave = false;
 
-            if (people.Exists(p => p.Id == person.Id))
+            if (people.Exists(p => p.Id == personId))
             {
                 for (int i = 0; i < people.Count; i++)
                 {
